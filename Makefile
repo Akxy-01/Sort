@@ -1,8 +1,3 @@
-#
-# This is the Makefile that can be used to create the "warmup1" executable
-# To create "warmup1" executable, do:
-#	make warmup1
-#
 warmup1: warmup1.o my402list.o
 	gcc -o warmup1 -g warmup1.o my402list.o
 
